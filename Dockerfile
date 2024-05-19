@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install -g yo generator-awesome-list
+RUN npm install -g yo minimal-awesome-list
 
 USER node
 

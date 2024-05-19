@@ -9,7 +9,7 @@
 ## Usage
 
 ```sh
-npm install -g yo generator-awesome-list
+npm install -g yo minimal-awesome-list
 yo awesome-list
 ```
 
@@ -18,7 +18,7 @@ yo awesome-list
 #### Build the Docker image
 
 ```sh
-docker build . -t generator-awesome-list
+docker build . -t minimal-awesome-list
 ```
 
 #### Create and run the container based on above image
@@ -26,7 +26,7 @@ docker build . -t generator-awesome-list
 The following does the same as the non-container command `yo awesome-list`.
 
 ```sh
-docker run --rm -it -v ${PWD}:/app  generator-awesome-list
+docker run --rm -it -v ${PWD}:/app  minimal-awesome-list
 ```
 
 ## What's included?

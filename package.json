@@ -1,5 +1,5 @@
 {
-  "name": "generator-awesome-list",
+  "name": "minimal-awesome-list",
   "version": "2.0.2",
   "description": "Yeoman generator for GitHub awesome lists 😎",
   "files": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dar5hak/generator-awesome-list.git"
+    "url": "git+https://github.com/danielrosehill/minimal-awesome-list-generator.git"
   },
   "preferGlobal": true,
   "engines": {
@@ -30,7 +30,7 @@
   "bugs": {
     "url": "https://github.com/dar5hak/generator-awesome-list/issues"
   },
-  "homepage": "https://github.com/dar5hak/generator-awesome-list#readme",
+  "homepage": "https://github.com/danielrosehill/minimal-awesome-list-generator#readme",
   "dependencies": {
     "eslint": "^9.0.0",
     "git-config": "0.0.7",

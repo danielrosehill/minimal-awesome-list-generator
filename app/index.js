@@ -45,16 +45,7 @@ class GeneratorAwesomeList extends Generator {
 			this.destinationPath('.gitattributes'),
 			{}
 		);
-		this.fs.copyTpl(
-			this.templatePath('code-of-conduct.md'),
-			this.destinationPath('code-of-conduct.md'),
-			this.props
-		);
-		this.fs.copyTpl(
-			this.templatePath('contributing.md'),
-			this.destinationPath('contributing.md'),
-			this.props
-		);
+ 
 		this.fs.copyTpl(
 			this.templatePath('readme.md'),
 			this.destinationPath('readme.md'),
